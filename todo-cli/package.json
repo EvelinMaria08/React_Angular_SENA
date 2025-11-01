@@ -1,0 +1,21 @@
+{
+  "name": "todo-cli",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^12.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.0",
+    "jest": "^30.2.0"
+  }
+}

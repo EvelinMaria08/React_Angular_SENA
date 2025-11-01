@@ -1,0 +1,151 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body y fuente */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e9f0f7;
+  color: #333;
+  line-height: 1.6;
+  padding: 40px 20px;
+}
+
+/* Contenedor principal con dos columnas */
+main {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+/* Sección lateral izquierda (contacto y referencias) */
+section {
+  flex: 1;
+  background-color: #41729f;
+  color: #f0f0f0;
+  border-radius: 10px;
+  padding: 25px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Espaciado entre bloques dentro de section */
+section > .section + .section {
+  margin-top: 30px;
+}
+
+/* Títulos en sección lateral */
+section h3 {
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+/* Referencias - espacio entre contactos */
+section .section > div + div {
+  margin-top: 20px;
+}
+
+/* Texto dentro de section */
+section p {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+/* Sección principal derecha (nombre, perfil, experiencia, educación...) */
+aside {
+  flex: 2;
+  padding: 0 10px;
+}
+
+/* Nombre grande */
+aside h1 {
+  font-size: 2.5rem;
+  color: #1f2d3d;
+  margin-bottom: 6px;
+  line-height: 1.1;
+}
+
+/* Cargo o título */
+aside h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #78b2c9;
+  margin-bottom: 25px;
+}
+
+/* Secciones dentro de aside */
+aside .section {
+  margin-bottom: 30px;
+}
+
+/* Títulos secciones */
+aside h3 {
+  font-size: 1.5rem;
+  color: #41729f;
+  border-bottom: 3px solid #41729f;
+  padding-bottom: 6px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+/* Párrafos dentro de aside */
+aside p {
+  font-size: 1rem;
+  color: #444;
+  text-align: justify;
+}
+
+/* Listas de educación, habilidades, idiomas */
+aside ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #555;
+}
+
+aside ul li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+.logo {
+  width: 120px;           /* ancho fijo para el contenedor del logo */
+  margin: 0 auto 20px;    /* centrado horizontal y margen abajo */
+  background-color: #f5f5f5; /* fondo claro para destacar el logo */
+  border-radius: 70px;    /* bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.192); /* sombra sutil */
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.logo img {
+  height: auto;          /* mantiene la proporción */
+  display: block;
+  border-radius: 100%;    /* bordes redondeados en la imagen */
+}
+
+
+/* Responsive para móviles */
+@media (max-width: 700px) {
+  main {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+  section, aside {
+    flex: none;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
