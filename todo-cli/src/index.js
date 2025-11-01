@@ -14,18 +14,18 @@ async function agregarTarea() {
     {
       type: "input",
       name: "tarea",
-      message: "✏️  Escribe una nueva tarea:",
+      message: "Escribe una nueva tarea:",
     },
   ]);
 
   tareas.push(respuesta.tarea);
-  console.log("\n✅ Tarea agregada con éxito.\n");
+  console.log("\nTarea agregada con éxito.\n");
 
   mostrarTareas();
 }
 
 function mostrarTareas() {
-  console.log("📋 Lista de tareas:");
+  console.log("Lista de tareas:");
   tareas.forEach((tarea, index) => {
     console.log(`${index + 1}. ${tarea}`);
   });
@@ -33,7 +33,7 @@ function mostrarTareas() {
 }
 
 async function main() {
-  console.log("👋 Bienvenido a TODO-CLI - SENA3\n");
+  console.log("Bienvenido a TODO-CLI - SENA3\n");
   await agregarTarea();
 }
 
