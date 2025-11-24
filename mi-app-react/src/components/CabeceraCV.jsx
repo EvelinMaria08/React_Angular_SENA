@@ -1,7 +1,7 @@
 export default function CabeceraCV() {
     return (
         <header>
-            <h1>Evelin Maria Moreno Fryles</h1>
+            <h1>Evelin Maria Moreno Freyles</h1>
             <h2>Desarrolladora en Software</h2>
             <h3>Contacto</h3>
             <ul>
