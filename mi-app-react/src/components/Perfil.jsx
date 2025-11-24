@@ -8,6 +8,15 @@ export default function Perfil() {
                 habilidades y aportar valor en cada proyecto en el que participo. Me motiva enfrentar nuevos desafíos y
                 contribuir al cumplimiento de los objetivos de la organización.
             </p>
+            <h3>Habilidades técnicas y blandas:</h3>
+            <ul>
+                <li>Comunicación efectiva</li>
+                <li>Rápido aprendizaje</li>
+                <li>Uso de herramientas tecnológicas</li>
+                <li>Empatía y trabajo en equipo</li>
+                <li>Resolución de problemas</li>
+                <li>Adaptabilidad</li>
+            </ul>
         </section>
     );
 }
