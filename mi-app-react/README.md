@@ -1,16 +1,66 @@
-# React + Vite
+# Mi App React – Hoja de Vida
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación creada en **React** que muestra una hoja de vida digital con diferentes componentes: Cabecera, Educación, Experiencia, Habilidades y más.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 📸 Capturas de pantalla
+A continuación se muestran algunas vistas del proyecto.  
 
-## React Compiler
+### Vista 1
+![Captura 1](src/assets/Cabecera.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Vista 2
+![Captura 2](src/assets/Perfil.png)
 
-## Expanding the ESLint configuration
+### Vista 3
+![Captura 3](src/assets/Educacion.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Vista 4
+![Captura 4](src/assets/Experiencias.png)
+
+
+---
+
+# Instrucciones para ejecutar el proyecto
+
+Sigue estos pasos para ejecutar la aplicación en tu equipo:
+
+# 1. Clonar el repositorio
+```bash
+git clone https://github.com/EvelinMaria08/React_Angular_SENA.git
+
+
+# 2. Ingresamos a la carpeta del proyecto React
+cd React_Angular_SENA/mi-app-react
+
+
+# 3. Instalamos las dependencias
+Tenemos que Asegúrarnos de tener Node.js instalado.
+Luego ejecuta:
+    npm install
+
+
+# 4. Ejecutar el proyecto en modo desarrollo
+npm run dev
+
+
+# 5. Abrir el navegador
+Vite te mostrará una URL similar a:
+    http://localhost:5173/
+
+---
+
+# Tecnologías usadas
+
+- React
+- Vite
+- JavaScript
+- JSX
+- CSS
+
+---
+
+# Autora:
+Evelin María Moreno Freyles
+Proyecto desarrollado como parte del aprendizaje en React y Angular – SENA
